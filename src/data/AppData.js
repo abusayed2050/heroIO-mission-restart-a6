@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://picsum.photos/seed/spotify/200",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Listen to music, podcasts, and audiobooks. Discover new tracks, create playlists, and enjoy millions of songs ad-free with Premium.",
+    "size": 98.4,
+    "reviews": 28450321,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 512000 },
+      { "name": "2 star", "count": 389000 },
+      { "name": "3 star", "count": 921000 },
+      { "name": "4 star", "count": 4210000 },
+      { "name": "5 star", "count": 22418321 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/netflix/200",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 2,
+    "description": "Watch TV shows, movies, and Netflix Originals. Stream on any device and download for offline viewing anytime, anywhere.",
+    "size": 115.2,
+    "reviews": 19832741,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 430000 },
+      { "name": "2 star", "count": 310000 },
+      { "name": "3 star", "count": 875000 },
+      { "name": "4 star", "count": 3820000 },
+      { "name": "5 star", "count": 14397741 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/duolingo/200",
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "id": 3,
+    "description": "Learn languages for free with fun, bite-sized lessons. Practice Spanish, French, German, Japanese, and 40+ other languages daily.",
+    "size": 74.6,
+    "reviews": 12540000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 98000 },
+      { "name": "2 star", "count": 112000 },
+      { "name": "3 star", "count": 430000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 9800000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/notion/200",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 4,
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases. Collaborate with your team and organize everything in one place.",
+    "size": 56.3,
+    "reviews": 4210000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 54000 },
+      { "name": "2 star", "count": 67000 },
+      { "name": "3 star", "count": 189000 },
+      { "name": "4 star", "count": 890000 },
+      { "name": "5 star", "count": 3010000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/figma/200",
+    "title": "Figma",
+    "companyName": "Figma, Inc.",
+    "id": 5,
+    "description": "Collaborative interface design tool. Create stunning UI/UX designs, prototype interactions, and share with your team in real time.",
+    "size": 43.8,
+    "reviews": 1870000,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 65000 },
+      { "name": "4 star", "count": 375000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/todoist/200",
+    "title": "Todoist",
+    "companyName": "Doist Inc.",
+    "id": 6,
+    "description": "The world's #1 task manager and to-do list app. Organize work and life with powerful project tools, reminders, and collaboration features.",
+    "size": 38.1,
+    "reviews": 2340000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 31000 },
+      { "name": "2 star", "count": 45000 },
+      { "name": "3 star", "count": 134000 },
+      { "name": "4 star", "count": 530000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/headspace/200",
+    "title": "Headspace",
+    "companyName": "Headspace Inc.",
+    "id": 7,
+    "description": "Meditate, sleep better, and reduce stress with guided meditations, breathing exercises, and sleep sounds designed by mindfulness experts.",
+    "size": 62.5,
+    "reviews": 3120000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 58000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 620000 },
+      { "name": "5 star", "count": 2200000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/canva/200",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd",
+    "id": 8,
+    "description": "Graphic design platform for creating social media graphics, presentations, posters, and more. Thousands of professional templates available.",
+    "size": 89.7,
+    "reviews": 8920000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 78000 },
+      { "name": "2 star", "count": 92000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 6900000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/discord/200",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 9,
+    "description": "Talk, chat, hang out, and stay close with your friends and communities. Voice, video, and text communication for gamers and everyone else.",
+    "size": 72.3,
+    "reviews": 11230000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 280000 },
+      { "name": "3 star", "count": 740000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 7900000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/strava/200",
+    "title": "Strava",
+    "companyName": "Strava Inc.",
+    "id": 10,
+    "description": "Track running, cycling, swimming, and more. Connect with athletes worldwide, join challenges, and analyze your performance with detailed metrics.",
+    "size": 51.9,
+    "reviews": 5640000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 67000 },
+      { "name": "2 star", "count": 93000 },
+      { "name": "3 star", "count": 280000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 4100000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/myfitnesspal/200",
+    "title": "MyFitnessPal",
+    "companyName": "MyFitnessPal, Inc.",
+    "id": 11,
+    "description": "Calorie counter and diet tracker with the largest food database. Log meals, track macros, and reach your fitness goals with personalized insights.",
+    "size": 66.4,
+    "reviews": 7320000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 198000 },
+      { "name": "2 star", "count": 243000 },
+      { "name": "3 star", "count": 679000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 4400000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/pocket/200",
+    "title": "Pocket",
+    "companyName": "Mozilla Corporation",
+    "id": 12,
+    "description": "Save articles, videos, and stories from any publication. Read them offline, anytime, on any device with a clean, distraction-free interface.",
+    "size": 29.8,
+    "reviews": 1430000,
+    "ratingAvg": 4.4,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 22000 },
+      { "name": "2 star", "count": 34000 },
+      { "name": "3 star", "count": 124000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 900000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/lastpass/200",
+    "title": "LastPass",
+    "companyName": "LastPass US LP",
+    "id": 13,
+    "description": "Secure password manager that stores, autofills, and generates strong passwords. Protect all your accounts with one master password.",
+    "size": 44.2,
+    "reviews": 2890000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 145000 },
+      { "name": "2 star", "count": 178000 },
+      { "name": "3 star", "count": 367000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/grammarly/200",
+    "title": "Grammarly",
+    "companyName": "Grammarly, Inc.",
+    "id": 14,
+    "description": "AI-powered writing assistant that checks grammar, spelling, punctuation, and style. Write clearly and confidently across all your apps.",
+    "size": 55.1,
+    "reviews": 4560000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 48000 },
+      { "name": "2 star", "count": 62000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 3300000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/robinhood/200",
+    "title": "Robinhood",
+    "companyName": "Robinhood Markets, Inc.",
+    "id": 15,
+    "description": "Commission-free investing app for stocks, ETFs, crypto, and options. Build your portfolio, track the market, and invest at your own pace.",
+    "size": 80.6,
+    "reviews": 6780000,
+    "ratingAvg": 4.2,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 312000 },
+      { "name": "2 star", "count": 268000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 4500000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/darksky/200",
+    "title": "Weather Underground",
+    "companyName": "The Weather Company",
+    "id": 16,
+    "description": "Hyperlocal weather forecasts powered by the world's largest personal weather station network. Get minute-by-minute precipitation and alerts.",
+    "size": 33.7,
+    "reviews": 1920000,
+    "ratingAvg": 4.3,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 57000 },
+      { "name": "2 star", "count": 73000 },
+      { "name": "3 star", "count": 190000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/splitwise/200",
+    "title": "Splitwise",
+    "companyName": "Splitwise, Inc.",
+    "id": 17,
+    "description": "Split bills with friends and roommates easily. Track shared expenses, IOUs, and settle up with a tap. Perfect for trips, rent, and dining out.",
+    "size": 27.4,
+    "reviews": 1150000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 19000 },
+      { "name": "2 star", "count": 26000 },
+      { "name": "3 star", "count": 95000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 750000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/calm/200",
+    "title": "Calm",
+    "companyName": "Calm.com, Inc.",
+    "id": 18,
+    "description": "App for sleep, meditation, and relaxation. Fall asleep faster with sleep stories, reduce anxiety with breathing exercises, and feel better every day.",
+    "size": 70.9,
+    "reviews": 4230000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 37000 },
+      { "name": "2 star", "count": 53000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 730000 },
+      { "name": "5 star", "count": 3200000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/1password/200",
+    "title": "1Password",
+    "companyName": "AgileBits Inc.",
+    "id": 19,
+    "description": "The most-loved password manager trusted by millions. Store passwords, credit cards, and secure notes. Sign in to sites with one click.",
+    "size": 48.5,
+    "reviews": 2110000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 14000 },
+      { "name": "2 star", "count": 21000 },
+      { "name": "3 star", "count": 75000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/monzo/200",
+    "title": "Monzo",
+    "companyName": "Monzo Bank Limited",
+    "id": 20,
+    "description": "Online bank with instant spending notifications, budgeting tools, bill splitting, and fee-free spending abroad. Banking made easy for modern life.",
+    "size": 59.2,
+    "reviews": 3450000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 41000 },
+      { "name": "2 star", "count": 59000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 650000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  }
+]

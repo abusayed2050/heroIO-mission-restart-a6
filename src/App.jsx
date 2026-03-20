@@ -1,16 +1,13 @@
+import React from 'react';
 import './App.css'
 
-function App() {
- 
 
+const App = () => {
   return (
-    <>
-      <div className='border-red-700 border '>
-          <h1>Vite + React</h1>
-      </div>
-      
-    </>
-  )
-}
+    <div className="border border-red-500">
+       <h1>Hello World</h1>
+    </div>
+  );
+};
 
-export default App
+export default App;
