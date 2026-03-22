@@ -2,9 +2,9 @@ import React from 'react';
 
 const Navbar = () => {
     const links = <>
-        <li><a>Item 1</a></li>
-        <li><a>Item 2</a></li>
-        <li><a>Item 3</a></li>
+        <li><a>Home</a></li>
+        <li><a>Apps</a></li>
+        <li><a>Installation</a></li>
     </>
     return (
         <div>
