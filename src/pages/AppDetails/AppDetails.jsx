@@ -1,13 +1,40 @@
-import React from 'react';
+import React, { use, useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { formatNumbers } from '../../utilities/FormatNumber/FormatNumber';
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import ErrorApp from '../ErrorApp/ErrorApp';
 
 const AppDetails = () => {
     const {appId} = useParams();
     const data = useLoaderData(); 
     const singleApp = data.find(app => app.id === parseInt(appId));
-    const { id,image, title, companyName, description, size, reviews, downloads, ratingAvg } = singleApp;
     
+   if (!singleApp){
+    return <ErrorApp></ErrorApp>
+   };
+    
+    const { id, image, title, companyName, description, size, reviews, downloads, ratingAvg, ratings } = singleApp;
+    
+    const [installed, setInstalled] = useState(false);
+    
+    useEffect(() => {
+        if (!singleApp) return;
+        const stored = JSON.parse(localStorage.getItem("installedapps") || "[]");
+        const isInstalled = stored.some(app => app.id === singleApp.id);
+        setInstalled(isInstalled);
+     }, [singleApp]);
+    const handleInstall = () => {
+        if (installed) return;
+        const stored = JSON.parse(localStorage.getItem("installedapps") || "[]");
+        stored.push(singleApp);
+        localStorage.setItem("installedapps",JSON.stringify(stored));
+        setInstalled(true);
+         alert('App installed successfully!');
+    };
+
+    const chartData = [...ratings].reverse();
+
+
     return (
         <div className="max-w-5xl mx-auto px-4 py-10">
             <div className="flex flex-col md:flex-row gap-8 mb-10">
@@ -16,9 +43,7 @@ const AppDetails = () => {
               src={image}
               alt={title}
               className="w-full h-full object-cover"
-              onError={(e) => {
-                e.target.style.display = "none";
-              }}
+              
             />
           </div>
           <div className="flex-1">
@@ -60,9 +85,9 @@ const AppDetails = () => {
               </div>
             </div>
 
-            {/* <button
-            //   onClick={handleInstall}
-            //   disabled={installed}
+            <button
+              onClick={handleInstall}
+              disabled={installed}
               className={`px-6 py-2.5 rounded-lg text-white text-sm font-medium transition-colors ${
                 installed
                   ? "bg-gray-400 cursor-not-allowed"
@@ -70,10 +95,28 @@ const AppDetails = () => {
               }`}
             >
               {installed ? "Installed" : `Install Now (${size} MB)`}
-            </button> */}
+            </button>
           </div>
             </div>
-            
+            <hr className="mb-8" />
+             <div className="mb-10">
+          <h2 className="text-lg font-bold text-gray-900 mb-6">Ratings</h2>
+          <ResponsiveContainer width="100%" height={220}>
+            <BarChart
+              layout="vertical"
+              data={chartData}
+              margin={{ top: 0, right: 20, left: 10, bottom: 0 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" horizontal={false} />
+              <XAxis type="number" tick={{ fontSize: 11 }} />
+              <YAxis dataKey="name" type="category" tick={{ fontSize: 11 }} width={45} />
+              <Tooltip />
+              <Bar dataKey="count" fill="#f97316" radius={[0, 4, 4, 0]} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+
+            <hr className="mb-8" />
             <div>
           <h2 className="text-lg font-bold text-gray-900 mb-4">Description</h2>
           {description.split("\n\n").map((para, i) => (
