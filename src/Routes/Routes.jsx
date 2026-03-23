@@ -6,6 +6,7 @@ import Home from '../pages/Home/Home';
 import Loading from '../utilities/Loading/Loading';
 import Apps from '../pages/Apps/Apps';
 import AppDetails from '../pages/AppDetails/AppDetails';
+import Installation from '../pages/Installation/Installation';
 
 export const router = createBrowserRouter([
   {
@@ -16,25 +17,32 @@ export const router = createBrowserRouter([
       {
         index: true,
         loader: async () => {
+          await new Promise(resolve => setTimeout(resolve, 4000));
           const res = await fetch('/data/AppData.json');
           if (!res.ok) throw new Error("Failed to fetch data");
           return res.json();
         },
         path: "/",
         Component: Home,
-        HydrateFallback: ()=> <div><Loading></Loading></div>
+        HydrateFallback: () => <div><Loading></Loading></div>
 
       },
       {
         path: "apps",
-        loader: ()=> fetch('/data/AppData.json'),
+        loader: () => fetch('/data/AppData.json'),
         Component: Apps,
+        HydrateFallback: () => <div><Loading></Loading></div>
       },
       {
         path: "apps/:appId",
-        loader:()=>fetch('/data/AppData.json'),
+        loader: () => fetch('/data/AppData.json'),
         Component: AppDetails,
-        HydrateFallback: ()=> <div><Loading></Loading></div>
+        HydrateFallback: () => <div><Loading></Loading></div>
+      },
+      {
+        path: "Installation",
+        Component: Installation,
+        HydrateFallback: () => <div><Loading></Loading></div>
       }
     ]
   },
