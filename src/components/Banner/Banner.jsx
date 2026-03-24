@@ -47,7 +47,6 @@ const Banner = () => {
                     </a>
                 </div>
 
-                {/* Phone mockup with app icons */}
                 <div className="relative inline-block">
                     <div className=" mx-auto ">
                         <img src={Hero} alt="Hero.IO" className="w-full h-full object-cover" onError={(e) => { e.target.style.display = "none"; }} />
