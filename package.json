@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "deploy:surge": "npm run build && copy dist\\index.html dist\\200.html && surge dist https://heroIO-mission-restart-a6-wed25032026408AM.surge.sh"
+
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
