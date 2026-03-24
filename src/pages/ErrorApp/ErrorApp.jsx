@@ -6,6 +6,7 @@ const ErrorApp = () => {
 
   const navigate = useNavigate();
 
+
   return (
     <div className="min-h-[60vh] flex flex-col items-center justify-center bg-gray-50 px-4 text-center">
       <div>
@@ -16,7 +17,7 @@ const ErrorApp = () => {
         The App you are requesting is not found on our system. please try another apps
       </p>
       <button
-        onClick={() => navigate(-1)}
+        onClick={() => navigate(0)}
         className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-2.5 rounded-lg text-sm font-medium"
       >
         Go Back!

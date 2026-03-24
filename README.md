@@ -1,12 +1,35 @@
-# React + Vite
+# APPVAULT — App Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+**APPVAULT** is a modern, fully responsive app discovery platform built with React + Vite. Users can browse a curated library of productivity apps, search and sort them, view detailed app information with an interactive review chart, and manage their installed apps — all built pixel-perfect from a Figma design with a clean light UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏠 **Home Page** — Hero section, Google Play & App Store links, stats band, top 8 trending apps
+- 📱 **All Apps Page** — Full 4-column grid with live search & sort by downloads
+- 📊 **App Details Page** — Info card, green Install button (with size), Recharts horizontal bar chart, multi-paragraph description
+- 📦 **My Installation Page** — List view of all installed apps with sort by size & Uninstall button
+- 💾 **localStorage Persistence** — Installed apps survive page refresh
+- 🔔 **Toast Notifications** — Install / uninstall feedback
+- ⚡ **Loading** — Route-level code splitting with page transition spinner
+- 🚫 **Custom 404 Page** — Laptop illustration with Go Back button
+- 😾 **App Not Found Page** — Grumpy cat illustration for invalid app IDs
+- 📱 **Fully Responsive** — Mobile, tablet, desktop
+
+---
+
+## 🛠 Technologies
+
+| Technology              | Purpose                                      |
+| ----------------------- | -------------------------------------------- |
+| **React 18**            | UI framework                                 |
+| **Vite**                | Build tool & dev server                      |
+| **React Router DOM v6** | Client-side routing with loading             |
+| **Recharts**            | Horizontal bar chart for rating distribution |
+| **react-hot-toast**     | Install / uninstall notifications            |
+| **localStorage API**    | Persistent app installation state            |
+
+---

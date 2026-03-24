@@ -10,7 +10,7 @@ const Navbar = () => {
     `text-sm font-medium transition-colors flex items-center gap-1 ${isPending
       ? "text-purple-400 animate-pulse"
       : isActive
-        ? "text-purple-600 underline underline-offset-4 pointer-events-none cursor-default"
+        ? "text-purple-600 underline underline-offset-4 pointer-events cursor-default"
         : "text-gray-600 hover:text-gray-900"
     }`;
 
@@ -33,10 +33,8 @@ const Navbar = () => {
   );
 
   return (
-    <div>
-
-
-      <div className="navbar bg-base-100 shadow-sm">
+    <>
+      <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -52,7 +50,9 @@ const Navbar = () => {
             <div className="w-8 h-8 flex items-center justify-center">
               <img src={Logo} alt="Logo" />
             </div>
-            <span className="font-bold text-gray-800 text-lg tracking-wider">App VAULT</span>
+            <span className="font-display font-bold text-lg">
+              <span className="text-black">App</span><span className="text-purple-600">Vault</span>
+            </span>
           </Link>
         </div>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </div >
+    </>
   );
 };
 

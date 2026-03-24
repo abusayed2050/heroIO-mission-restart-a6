@@ -12,7 +12,6 @@ const AppCardSingle = ({ data }) => {
         className="bg-white rounded-xl overflow-hidden cursor-pointer hover:shadow-lg transition-shadow duration-200 border border-gray-100"
       >
         <div className="bg-gray-200 aspect-[3/4] overflow-hidden">
-          appid{id}
           <img
             src={image}
             alt={title}
