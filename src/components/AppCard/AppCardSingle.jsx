@@ -11,7 +11,7 @@ const AppCardSingle = ({ data }) => {
         onClick={() => navigate(`/apps/${id}`)}
         className="bg-white rounded-xl overflow-hidden cursor-pointer hover:shadow-lg transition-shadow duration-200 border border-gray-100"
       >
-        <div className="bg-gray-200 aspect-[3/4] overflow-hidden">
+        <div className="bg-gray-200 aspect-auto overflow-hidden">
           <img
             src={image}
             alt={title}
