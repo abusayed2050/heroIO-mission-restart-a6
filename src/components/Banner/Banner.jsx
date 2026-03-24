@@ -13,7 +13,7 @@ const Banner = () => {
                     <span className="text-gray-900">Apps</span>
                 </h1>
                 <p className="text-gray-500 max-w-lg mx-auto mb-8 text-sm leading-relaxed">
-                    At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
+                    At App vault, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
                     Our goal is to turn your ideas into digital experiences that truly make an impact.
                 </p>
                 <div className="flex justify-center gap-4 mb-10">
