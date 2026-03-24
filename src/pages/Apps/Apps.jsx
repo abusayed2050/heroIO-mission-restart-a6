@@ -22,7 +22,7 @@ const Apps = () => {
 
     return (
         <div className="bg-gray-50 min-h-screen">
-            {/* Title */}
+
             <div className="text-center py-12 px-4">
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">Our All Applications</h1>
                 <p className="text-gray-500 text-sm">
@@ -31,11 +31,11 @@ const Apps = () => {
             </div>
 
             <div className="max-w-6xl mx-auto px-4 pb-14">
-                {/* Search & Stats Bar */}
+
                 <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6">
                     <div className="flex items-center gap-4">
                         <p className="font-semibold text-gray-700">({displayApps.length}) Apps Found</p>
-                        {/* Sort Dropdown */}
+
                         <select
                             value={sortOrder}
                             onChange={(e) => setSortOrder(e.target.value)}
@@ -46,7 +46,7 @@ const Apps = () => {
                             <option value="low-high">Low → High</option>
                         </select>
                     </div>
-                    {/* Search Input */}
+
                     <div className="relative w-full sm:w-64">
                         <svg
                             viewBox="0 0 24 24"
@@ -68,7 +68,7 @@ const Apps = () => {
                     </div>
                 </div>
 
-                {/* Apps Grid */}
+
                 <Suspense fallback={<Loading />}>
                     {displayApps.length === 0 ? (
                         <div className="text-center py-20">

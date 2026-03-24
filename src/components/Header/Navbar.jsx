@@ -4,8 +4,6 @@ import Logo from '../../assets/Logo.png';
 
 const Navbar = () => {
   const navigation = useNavigation();
-  const isLoading = navigation.state === "loading";
-
   const navLinkClass = ({ isActive, isPending }) =>
     `text-sm font-medium transition-colors flex items-center gap-1 ${isPending
       ? "text-purple-400 animate-pulse"

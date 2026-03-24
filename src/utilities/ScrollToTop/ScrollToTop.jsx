@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router';
 
-
+// যে  page এ navigate হয় scroll top এ থাকবে
 const ScrollToTop = () => {
     const { pathname } = useLocation();
 

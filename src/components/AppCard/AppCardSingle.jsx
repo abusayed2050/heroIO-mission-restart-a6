@@ -1,5 +1,5 @@
 import React from 'react';
-import { formatNumbers } from '../../utilities/FormatNumber/FormatNumber';
+import { formatNumbers } from '../../utilities/FormatNumber/FormatNumber'; //number কে string এ রূপান্তর করে যেমন 1000000 কে 1M এ রূপান্তর করে
 import { useNavigate } from 'react-router';
 
 const AppCardSingle = ({ data }) => {

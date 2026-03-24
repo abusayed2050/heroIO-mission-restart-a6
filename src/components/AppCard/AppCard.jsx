@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router';
 
 const AppCard = ({ data }) => {
   const navigate = useNavigate();
-  const topApps = data.slice(0, 8);  //
+  const topApps = data.slice(0, 8);  // data নামক array থেকে প্রথম ৮ টি উপাদান দেখাবে
   return (
 
     <>

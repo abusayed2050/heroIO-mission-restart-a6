@@ -122,6 +122,7 @@ const AppDetails = () => {
 
             <hr className="mb-8" />
             <div>
+                {/* Description হচ্ছে object আর map হচ্ছে array তাই split("\n\n") এর মাধ্যমে Description কে array তে রূপান্তর করা হয় */}
                 <h2 className="text-lg font-bold text-gray-900 mb-4">Description</h2>
                 {description.split("\n\n").map((para, i) => (
                     <p key={i} className="text-gray-600 text-sm leading-relaxed mb-4">

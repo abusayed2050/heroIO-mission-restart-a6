@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className="bg-neutral text-neutral-content mt-auto">
       <div className="max-w-6xl mx-auto px-6 py-10">
         <div className="flex flex-col md:flex-row justify-between items-start gap-8">
-          {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-2 mb-3">
               <div className="w-8 h-8 flex items-center justify-center">
@@ -24,8 +23,6 @@ const Footer = () => {
               </span>
             </p>
           </div>
-
-          {/* Links */}
           <div className="flex gap-12">
             <div>
               <p className="text-neutral-content/70 text-xs uppercase tracking-wider font-semibold mb-3">Pages</p>

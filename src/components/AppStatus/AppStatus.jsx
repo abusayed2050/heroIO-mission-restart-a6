@@ -5,7 +5,7 @@ const AppStatus = ({ data }) => {
 
     const [downloads, reviews] = data;
 
-    const totalDownloads = data.reduce((acc, curr) => acc + curr.downloads, 0);
+    const totalDownloads = data.reduce((acc, curr) => acc + curr.downloads, 0);//data নামক array থেকে downloads আর reviews এর total number এর যোগফল দেখবে
     const totalReviews = data.reduce((acc, curr) => acc + curr.reviews, 0);
 
     return (
